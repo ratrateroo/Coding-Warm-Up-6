@@ -1,6 +1,6 @@
-const videoClickHandler = (video) => {
-    document.getElementById("slider").src = video;
-};
+// const videoClickHandler = (video) => {
+//     document.getElementById("slider").src = video;
+// };
 
 const videos = [
     './vidoes/video1.mp4',
@@ -11,7 +11,7 @@ const videos = [
 
 
 const videoHandler = (link,i) => {
-    console.log(vidoes[i]);
+    console.log(link, i);
 }
 
 const links = document.querySelectorAll('.navigation li img');
