@@ -38,4 +38,17 @@ section .navigation li {
     background: #fff;
     padding: 3px 3px 0;
     opacity: 0.7;
+    transition: 0.5s;
 }
+
+section .navigation li:hover {
+    opacity: 1;
+}
+
+section .navigation li img {
+    width: 120px;
+}
+section .navigation li img:hover {
+    width: 200px;
+}
+
