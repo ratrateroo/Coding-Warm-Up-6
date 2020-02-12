@@ -47,6 +47,7 @@ section .navigation li:hover {
 
 section .navigation li img {
     width: 120px;
+    transition: 0.5s;
 }
 section .navigation li img:hover {
     width: 200px;
